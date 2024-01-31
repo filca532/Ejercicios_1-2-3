@@ -1,8 +1,8 @@
 package Ejercicio2;
 
 /**
- * <p>La clase Password proporciona funcionalidades para crear y validar contraseñas</p>
- * <p>Este clase genera contraseñas aleatorias y verifica su fortaleza</p>
+ * <p>La clase Password proporciona funcionalidades para crear y validar contrasenyas</p>
+ * <p>Este clase genera contrasenyas aleatorias y verifica su fortaleza</p>
  *
  * @author Filca
  * @version 1.5
@@ -12,41 +12,41 @@ public final class Password {
 
     private int longitud;
 
-    private String contraseña;
+    private String contrasenya;
 
     /**
-     * Devuelve la longitud de la contraseña
+     * Devuelve la longitud de la contrasenya
      *
-     * @return longitud de la contraseña
+     * @return longitud de la contrasenya
      */
     public int getLongitud() {
         return longitud;
     }
 
     /**
-     * Establece la longitud de la contraseña
+     * Establece la longitud de la contrasenya
      *
-     * @param longitud longitud de la contraseña
+     * @param longitud longitud de la contrasenya
      */
     public void setLongitud(int longitud) {
         this.longitud = longitud;
     }
 
     /**
-     * Devuelve la contraseña.
+     * Devuelve la contrasenya.
      *
-     * @return contraseña
+     * @return contrasenya
      */
-    public String getContraseña() {
-        return contraseña;
+    public String getContrasenya() {
+        return contrasenya;
     }
 
     /**
-     * Genera una contraseña aleatoria.
+     * Genera una contrasenya aleatoria.
      *
      * @see Math#random()
      * @see Math#floor(double)
-     * @return contraseña generada
+     * @return contrasenya generada
      */
     public String generaPassword() {
         String password = "";
@@ -70,21 +70,21 @@ public final class Password {
     }
 
     /**
-     * Verifica si la contraseña es fuerte.
+     * Verifica si la contrasenya es fuerte.
      *
      * @see String#charAt(int)
-     * @return true si la contraseña es fuerte, false en caso contrario
+     * @return true si la contrasenya es fuerte, false en caso contrario
      */
     public boolean esFuerte() {
         int cuentanumeros = 0;
         int cuentaminusculas = 0;
         int cuentamayusculas = 0;
 
-        for (int i = 0; i < contraseña.length(); i++) {
-            if (contraseña.charAt(i) >= 97 && contraseña.charAt(i) <= 122) {
+        for (int i = 0; i < contrasenya.length(); i++) {
+            if (contrasenya.charAt(i) >= 97 && contrasenya.charAt(i) <= 122) {
                 cuentaminusculas += 1;
             } else {
-                if (contraseña.charAt(i) >= 65 && contraseña.charAt(i) <= 90) {
+                if (contrasenya.charAt(i) >= 65 && contrasenya.charAt(i) <= 90) {
                     cuentamayusculas += 1;
                 } else {
                     cuentanumeros += 1;
@@ -99,21 +99,21 @@ public final class Password {
     }
 
     /**
-     * Verifica si la contraseña es fuerte.
+     * Verifica si la contrasenya es fuerte.
      *
-     * @deprecated (desde la versión 1.2) Reemplazado por {@link #esFuerte()}
-     * @return true si la contraseña es fuerte, false en caso contrario
+     * @deprecated (desde la version 1.2) Reemplazado por {@link #esFuerte()}
+     * @return true si la contrasenya es fuerte, false en caso contrario
      */
     public boolean esFort() {
         int cuentanumeros = 0;
         int cuentaminusculas = 0;
         int cuentamayusculas = 0;
 
-        for (int i = 0; i < contraseña.length(); i++) {
-            if (contraseña.charAt(i) >= 97 && contraseña.charAt(i) <= 122) {
+        for (int i = 0; i < contrasenya.length(); i++) {
+            if (contrasenya.charAt(i) >= 97 && contrasenya.charAt(i) <= 122) {
                 cuentaminusculas += 1;
             } else {
-                if (contraseña.charAt(i) >= 65 && contraseña.charAt(i) <= 90) {
+                if (contrasenya.charAt(i) >= 65 && contrasenya.charAt(i) <= 90) {
                     cuentamayusculas += 1;
                 } else {
                     cuentanumeros += 1;
@@ -137,10 +137,10 @@ public final class Password {
     /**
      * Constructor de Password con longitud especificada.
      *
-     * @param longitud longitud de la contraseña
+     * @param longitud longitud de la contrasenya
      */
     public Password(int longitud) {
         this.longitud = longitud;
-        contraseña = generaPassword();
+        contrasenya = generaPassword();
     }
     }
