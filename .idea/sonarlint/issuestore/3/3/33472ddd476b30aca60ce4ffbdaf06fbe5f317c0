@@ -1,0 +1,26 @@
+
+8
+java:S1643:"Use a StringBuilder instead.(©¯×8ıüèóÕ1
+>
+java:S1643>"Use a StringBuilder instead.(äºáÿÿÿÿÿ8şüèóÕ1
+>
+java:S1643A"Use a StringBuilder instead.(™Îôøÿÿÿÿ8şüèóÕ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(À±›åÿÿÿÿÿ8÷‚¦óÕ1
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(û®¸àøÿÿÿÿ8ÓıèóÕ1
+F
+java:S21406")Use "java.util.Random.nextInt()" instead.(¦·¯ª8ÕıèóÕ1
+K
+java:S21409")Use "java.util.Random.nextInt()" instead.(»‘±ÿÿÿÿÿ8ÖıèóÕ1
+F
+java:S2140=")Use "java.util.Random.nextInt()" instead.(¹†ƒÅ8×ıèóÕ1
+K
+java:S2140@")Use "java.util.Random.nextInt()" instead.(áìË§øÿÿÿÿ8×ıèóÕ1
+c
+java:S1126^"AReplace this if-then-else statement by a single return statement.(°šÓûÿÿÿÿ8ÙıèóÕ1
+W
+java:S1133k"5Do not forget to remove this deprecated code someday.(Äƒº“ÿÿÿÿÿ8ÙıèóÕ1
+I
+java:S1123k"'Add the missing @Deprecated annotation.(Äƒº“ÿÿÿÿÿ8ÚıèóÕ1
+c
+java:S1126{"AReplace this if-then-else statement by a single return statement.(§ş†Ãüÿÿÿÿ8ÛıèóÕ1

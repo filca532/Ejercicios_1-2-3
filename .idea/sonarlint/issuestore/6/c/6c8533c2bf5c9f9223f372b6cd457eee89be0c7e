@@ -1,0 +1,15 @@
+
+J
+java:S1604"(Make this anonymous inner class a lambda(¤©Òâüÿÿÿÿ8ÁÜ‘ôÕ1
+J
+java:S1604J"(Make this anonymous inner class a lambda(¹×û¬ıÿÿÿÿ8ÂÜ‘ôÕ1
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯§åí
+y
+java:S1450
+"WRemove the "comboBox" field and declare it as a local variable in the relevant methods.(ï¦ûıÿÿÿÿ8àÜ‘ôÕ1
+q
+java:S3252!"OUse static access with "javax.swing.WindowConstants" for "DO_NOTHING_ON_CLOSE".(éïÍÆşÿÿÿÿ8úÜ‘ôÕ1
+W
+java:S1161>":Add the "@Override" annotation above this method signature(˜üÉ¨8€İ‘ôÕ1
+\
+java:S1161E":Add the "@Override" annotation above this method signature(º£Ïâùÿÿÿÿ8‚İ‘ôÕ1
